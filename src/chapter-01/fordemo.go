@@ -5,6 +5,10 @@ import (
 	"os"
 )
 
+const (
+	Hello string = "hello"
+)
+
 func fordemo() {
 	var s, sep string
 	for i := 0; i < len(os.Args); i++ {
