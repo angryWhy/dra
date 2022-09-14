@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func aa() {
 	var arr = [5]int{1, 2, 3, 4, 5}
 	add(&arr)
 	fmt.Println(arr)
